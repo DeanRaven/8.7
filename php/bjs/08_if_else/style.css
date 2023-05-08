@@ -1,0 +1,59 @@
+body {
+    background-image: url(images/body_img.jpg);
+    background-size: 100vw 100vh;
+}
+
+.card {
+    cursor: default;
+    margin-right: 20px;
+    transition: 1s;
+}
+
+.game-card {
+    height: 100vh;
+    font-family: 'Open Sans', monospace;
+}
+
+.card-header {
+    background-color: rgba(201, 181, 5, 0.753);
+    color: rgb(6, 139, 6);
+    font-weight: bold;
+}
+
+.card-footer {
+    background-color: rgba(201, 181, 5, 0.753);
+}
+
+.card-body {
+    background-color: rgba(252, 250, 166, 0.938);
+}
+
+.form-group {
+    margin-inline: auto;
+    padding: 5px;
+    width: auto;
+}
+
+label {
+    padding: 0px 10px 0px 0px;
+}
+
+#btnRetry {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(158, 9, 4);
+}
+
+#btnRetry:hover {
+    color: rgb(58, 52, 51);
+    font-weight: lighter;
+}
+
+#btnEqual {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.hidden {
+    display: none;
+}
